@@ -18,7 +18,9 @@ class Form extends React.Component {
           </label>
           <input type="time" step="1" id="time" name="time" min="00:00:00" max="01:30:00" required />
         </div>
-        <Button />
+        <Button>
+          Adicionar
+        </Button>
       </form>
     );
   }
